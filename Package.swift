@@ -11,9 +11,9 @@ let package = Package(
       targets: ["FluxSwift"])
   ],
   dependencies: [
-    .package(url: "https://github.com/ml-explore/mlx-swift", .upToNextMinor(from: "0.25.4")),
-    .package(url: "https://github.com/huggingface/swift-transformers",.upToNextMinor(from: "0.1.21")),
-    .package(url: "https://github.com/apple/swift-log.git", from: "1.5.3")
+    .package(url: "https://github.com/apple/swift-log.git", from: "1.5.3"),
+    .package(url: "https://github.com/huggingface/swift-transformers", from: "1.1.6"),
+    .package(url: "https://github.com/ml-explore/mlx-swift", from: "0.30.3"),
   ],
   targets: [
     .target(
