@@ -195,7 +195,7 @@ public struct FluxConfiguration: Sendable {
   }
 
   public static let flux1Schnell = FluxConfiguration(
-    id: "black-forest-labs/FLUX.1-schnell",
+    id: "mzbac/flux1.schnell.4bit.mlx",
     files: [
       .mmditWeights: "transformer/*.safetensors",
       .textEncoderWeights: "text_encoder/model.safetensors",
